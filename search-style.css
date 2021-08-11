@@ -1,0 +1,126 @@
+/* HEAD AND NAV */
+.mainContent {
+  padding: 40px;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.actionRow {
+  margin-top: 20px;
+}
+
+.cartBtn {
+  width: 50%;
+  background-color: black;
+}
+
+/* RESULTS SEARCH FILTER SORT AREA*/
+.fillCart {
+  filter: invert(97%);
+  padding-top: 5px;
+  position: relative;
+  left: 450px;
+}
+
+.resultsContent {
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+.search-input-group {
+  justify-content: center;
+  margin-top: 30px;
+  padding: 10px 0;
+}
+
+.d-flex.p-2 {
+  flex-direction: row;
+  justify-content: center;
+}
+
+#searchInput,
+.filter-sort {
+  font-size: small;
+  width: 650px;
+  padding-left: 25px;
+}
+
+.btn-info {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: absolute;
+  height: 5.5vh;
+}
+
+.filter-sort {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.btn-secondary {
+  width: 175px;
+  opacity: 67%;
+  margin-right: 20px;
+}
+
+.prod-tally {
+  position: relative;
+  left: 95%;
+}
+
+.mainBody {
+  margin-top: 50px;
+}
+
+.row-cols-4 {
+  display: inline;
+}
+
+main.mainBody > img {
+  object-fit: cover;
+}
+
+.cardRow {
+  display: inline-flex;
+}
+
+.card {
+  size: 20%;
+  width: 22em;
+  height: auto;
+  margin-left: 50px;
+  margin-bottom: 45px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*
+.card-body {
+  font-weight: bold;
+  margin-left: 5px;
+}
+*/
+
+/* FOOTER */
+footer {
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.footerNav {
+  max-width: 80%;
+}
+
+#emailInput {
+  font-size: small;
+}
+
+.btn-success {
+  background-color: black;
+  width: 30%;
+}

@@ -1,0 +1,42 @@
+/* BASE */
+.mainContent {
+  padding: 40px;
+}
+
+/* PRODUCT SECTION */
+.thumbnailImg {
+  margin-top: 20px;
+}
+
+.quantity {
+  width: 30%;
+}
+
+.actionRow {
+  margin-top: 20px;
+}
+
+.cartBtn {
+  width: 50%;
+  background-color: black;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.footerNav {
+  max-width: 80%;
+}
+
+.btn-success {
+  background-color: black;
+  width: 30%;
+}

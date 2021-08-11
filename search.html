@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD START -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+
+    <link rel="stylesheet" href="normalize.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="search-style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <!-- HEAD END -->
+
+  <body>
+    <header>
+      <!-- NAV START -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">L13</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="navbar-collapse collapse justify-content-center"
+            id="mainNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a style="color: whitesmoke" class="nav-link" href="">HOME</a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  style="color: whitesmoke"
+                  class="nav-link"
+                  href="file:///Users/latoniamertica/Documents/myCodeCiC/week5/day1/day1-2-withBootstrap/index.html"
+                  >SHOP</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  style="color: whitesmoke"
+                  class="nav-link"
+                  href=""
+                  >ABOUT</a
+                >
+              </li>
+
+
+            <!--
+              <li class="nav-item">
+                <a
+                  style="color: whitesmoke"
+                  class="nav-link"
+                  href="file:///Users/latoniamertica/Documents/myCodeCiC/week5/day1/day1-2-withBootstrap/search.html"
+                  >SEARCH</a
+                >
+              </li> -->
+
+
+              <!--SEARCH & CART SECTION START -->
+              <li class="nav-item fillCart">
+                <img src="images/shopping-cart.svg" alt="Shopping Cart icon" />
+                <a class="nav-link" href=""></a>
+              </li>
+              <!-- SEARCH & CART SECTION END -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAV END -->
+    </header>
+
+    <!-- START RESULTS OVER MAIN -->
+    <div class="container-fluid resultsContent">
+      <h1 style="text-align: center">RESULTS FOR "_____________"</h1>
+    </div>
+
+    <div class="container-fluid row"></div>
+    <!-- START SEARCH FILTER SORT AREA -->
+    <div class="d-flex p-2">
+      <form>
+        <input
+          type="text"
+          class="search-input-group"
+          class="form-control"
+          id="searchInput"
+          placeholder="search term"
+          aria-label="search input"
+          aria-describedby="submit search"
+        />
+        <button class="btn btn-info">
+          <img src="images/search.svg" alt="Search icon" />
+        </button>
+      </form>
+    </div>
+
+    <p class="filter-sort">
+      Filter By
+      <select class="btn btn-secondary"></select>
+      <!-- <button class="btn btn-secondary" type="button" id="dropdownFilterBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>>FILTER OPTIONS</button> -->
+      Sort By
+      <select class="btn btn-secondary"></select>
+      <span class="prod-tally"> _____products</span>
+    </p>
+
+    <!-- END SEARCH FILTER SORT AREA -->
+
+    <!-- END RESULTS OVER MAIN-->
+
+
+    <main class="row-cols-4 container-fluid mainBody">
+      <div class="centered cardRow1">
+        <div class="cardRow">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones.jpeg"
+              alt="Black Headphones"
+            />
+            <!-- <div
+        class="card-body">
+           <p class="card-text">Product Title</p>
+          <p>&#36;PRICE</p>
+        </div> -->
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones.jpeg"
+              alt="Black Headphones"
+            />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones.jpeg"
+              alt="Black Headphones"
+            />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones.jpeg"
+              alt="Black Headphones"
+            />
+          </div>
+        </div>
+
+
+      <!-- START CARD ROW TWO -->
+      <div class="centered cardRow2">
+        <div class="cardRow">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones - golden.jpeg"
+              alt="Golden Headphones"
+            />
+            <!-- <div
+        class="card-body">
+           <p class="card-text">Product Title</p>
+          <p>&#36;PRICE</p>
+        </div> -->
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones - golden.jpeg"
+              alt="Golden Headphones"
+            />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones - golden.jpeg"
+              alt="Golden Headphones"
+            />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones - golden.jpeg"
+              alt="Golden Headphones"
+            />
+          </div>
+        </div>
+      </div>
+
+
+         <!-- START CARD ROW THREE -->
+      <div class="centered cardRow3">
+        <div class="cardRow">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones-amethyst.jpeg"
+              alt="Amethyst Headphones"
+            />
+            <!-- <div
+        class="card-body">
+           <p class="card-text">Product Title</p>
+          <p>&#36;PRICE</p>
+        </div> -->
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones-amethyst.jpeg"
+              alt="Amethyst Headphones"
+            />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones-amethyst.jpeg"
+              alt="Amethyst Headphones"
+            />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="images/headphones-amethyst.jpeg"
+              alt="Amethyst Headphones"
+            />
+          </div>
+        </div>
+    </main>
+  </body>
+
+  <!-- FOOTER START -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footerNavHeading">
+            <h2>Additional Links</h2>
+          </div>
+          <div class="nav justify-content-between footerNav">
+            <div class="nav-item">
+              <a href="#" class="nav-link"> Shipping & Return Policy </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#" class="nav-link"> Terms of Service </a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#" class="nav-link"> Contact </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="footerHeading">
+            <h2>Get Latest Updates</h2>
+          </div>
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="emailInput"
+                placeholder="Enter Your Email Address"
+                aria-label="your email"
+                aria-describedby="submit"
+              />
+              <button class="btn btn-success">submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+</html>

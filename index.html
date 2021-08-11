@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cohort 2 | Shop</title>
+    
+    <link rel="stylesheet" href="normalize.css" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
+    crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
+    crossorigin="anonymous" 
+    defer>
+    </script>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">nav
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">L13</a>
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#mainNav" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                  </button> 
+                  <div class="navbar-collapse collapse justify-content-center" id="mainNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">HOME</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="file:///Users/latoniamertica/Documents/myCodeCiC/week5/day1/day1-2-withBootstrap/search.html">SEARCH</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="">CART</a>
+                            </li>
+                        </ul>
+                  </div>    
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <div class="mainContent container-fluid d-flex 
+    justify-content-around flex-wrap">
+
+        <section class="feature col-lg-4">
+            <img class="featureImg img-fluid rounded" 
+            src="images/headphones.jpeg" 
+            alt="black headphones"/>
+            <div class="thumbnailRow row">
+
+                <div class="thumbnailImg col-2">
+                    <img class="img-thumbnail rounded" 
+                    src="images/headphones.jpeg" 
+                    alt="black headphones thumbnail">
+            </div>
+
+            <div class="thumbnailImg col-2">
+                    <img class="img-thumbnail rounded" 
+                    src="images/headphones.jpeg" 
+                    alt="black headphones thumbnail">
+            </div>
+
+            <div class="thumbnailImg col-2">
+                    <img class="img-thumbnail rounded" 
+                    src="images/headphones.jpeg" 
+                    alt="black headphones thumbnail">
+            </div>
+
+            <div class="thumbnailImg col-2">
+                    <img class="img-thumbnail rounded" 
+                    src="images/headphones.jpeg" 
+                    alt="black headphones thumbnail">
+            </div>
+
+            <div class="thumbnailImg col-2">
+                    <img class="img-thumbnail rounded" 
+                    src="images/headphones.jpeg" 
+                    alt="black headphones thumbnail">
+            </div>
+
+            <div class="thumbnailImg col-2">
+                    <img class="img-thumbnail rounded" 
+                    src="images/headphones.jpeg" 
+                    alt="black headphones thumbnail">
+            </div>
+        </section>
+
+
+        <section class="productInfo col-lg-4">
+            <h1 class="productTitle">
+                Wireless Headphones
+            </h1>
+            <h2 class="price">
+                $1,300
+            </h2>
+            <div class="actionRow d-flex justify-content-between align-items-center">
+                <select class="quantity form-select" aria-label="quantity">
+                    <option selected>Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="cartBtn btn btn-primary">
+                    add to cart
+                </button>
+            </div>
+
+            <div class="description">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae a facilis mollitia quisquam earum exercitationem ut tenetur minus repellat excepturi numquam labore cupiditate, saepe in iusto quaerat eius vero. Aut.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quisquam exercitationem nisi amet esse cumque eos, deserunt enim quas. Eveniet consequuntur dignissimos aspernatur dolorum suscipit velit animi vero, voluptas nesciunt?
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footerNavHeading">
+                        <h2>
+                            Additional Links
+                        </h2>
+                    </div>
+                    <div class="nav justify-content-between footerNav">
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                Shipping & Returns
+                            </a>
+                        </div>
+
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                Terms
+                            </a>
+                        </div>
+
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="footerHeading">
+                        <h2>
+                            Get Latest Updates
+                        </h2>
+                    </div>
+                    <form>
+                        <div class="input-group">
+                        <input type="text"
+                        class="form-control"
+                        id="emailInput"
+                        placeholder="Enter Your Email Address"
+                        aria-label="your email"
+                        aria-describedby="submit"
+                        />
+                        <button class="btn btn-success">
+                            submit
+                        </button>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
