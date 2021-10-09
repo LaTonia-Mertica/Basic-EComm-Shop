@@ -1,4 +1,5 @@
 # Basic eComm Shop
+*solid structure exercise, including placing script in header with style sheet and bootstrap ... simple while powerful code*
 
 ##### FIRST NAME: La'Tonia Mertica
 ###### note_1: pronounced *luh tone yuh merr treece*
